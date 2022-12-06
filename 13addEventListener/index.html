@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manipulación del DOM básica - Curso práctico de JavaScript</title>
+</head>
+<body>
+    <h1>Manipulación del DOM básica</h1>
+    
+    <input id="calculo1" placeholder="Escribe un numero"/>
+    <input id="calculo2" placeholder="Escribe un numero"/>
+    <button id="btnCalcular" >Calcular Suma</button>
+    
+    <p id="result"></p>
+
+    <!--Usar eventos del form-->
+    <form>
+        <input id="txt1" placeholder="Escribe algo aqui"/>
+        <input id="txt2" placeholder="Escribe algo aqui"/>
+        <!--Por default el ultimo boton en un formulario se convierte en nun boton submint el cual redirige la informacion del formulario hacia el servidor
+        La informacion del input pasa por la URL en queryparams y como este formulario no dice a donde mandar esta informacion, la pagina se recarga y lo escrito se pierde
+        esto de arregla en JS-->
+        <button id="btnConcatenar" >Concatenar cuadros de texto</button>
+
+        <!--Para que este boton ya no sea de submint hay que modificar type="button"-->
+
+        <p id="resultConcatenar"></p>
+
+    </form>
+
+    <script src="./script.js"></script>
+</body>
+</html>

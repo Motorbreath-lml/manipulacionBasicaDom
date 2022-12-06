@@ -1,0 +1,1 @@
+console.log("Poner el codigo JS en un archivo aparte es una buena practica, recordar usar src u dar la ubicacion del archivo");
